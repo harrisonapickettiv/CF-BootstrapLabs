@@ -30,3 +30,15 @@ main > .container {
 .minHeight {
   min-height: 80vh;
 }
+
+#content {
+  position: relative;
+  height: 445px;
+}
+
+#readMoreButton {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
