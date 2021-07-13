@@ -18,91 +18,108 @@
   </head>
   <body>
     <main>
-      <div class="container">
+      <div class="container mt-5">
         <div class="text-white text-center">
           <h1>Contact Me</h1>
         </div>
-        <div class="bg-light p-3">
-          <div class="row">
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="firstName">First Name</label>
-                <input
-                  class="form-control"
-                  type="text"
-                  id="firstName"
-                  placeholder="First Name"
-                />
+        <div class="bg-light p-3 border border-2 border-info shadow-lg">
+          <form action="#">
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="firstName">First Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="First Name"
+                    aria-label="First Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="lastName">Last Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    placeholder="Last Name"
+                    aria-label="Last Name"
+                    required
+                  />
+                </div>
               </div>
             </div>
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="lastName">Last Name</label>
-                <input
-                  class="form-control"
-                  type="text"
-                  id="lastName"
-                  placeholder="Last Name"
-                />
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    aria-label="Email"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="phone">Phone (optional)</label>
+                  <input
+                    class="form-control"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Phone"
+                    aria-label="Phone"
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="email">Email</label>
-                <input
-                  class="form-control"
-                  type="email"
-                  id="email"
-                  placeholder="Email"
-                />
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    aria-label="Subject"
+                  />
+                </div>
               </div>
             </div>
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="phone">Phone (optional)</label>
-                <input
-                  class="form-control"
-                  type="tel"
-                  id="phone"
-                  placeholder="Phone"
-                />
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    aria-label="Message"
+                    required
+                  ></textarea>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="subject">Subject</label>
-                <input
-                  class="form-control"
-                  type="text"
-                  id="subject"
-                  placeholder="Subject"
-                />
+            <div class="row">
+              <div class="col">
+                <div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="mb-3">
-                <label class="form-label" for="message">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div>
-                <button class="btn btn-primary">Submit</button>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </main>
