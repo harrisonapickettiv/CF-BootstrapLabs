@@ -22,6 +22,10 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+main > .container-fluid {
+  padding: 60px;
+}
+
 .homeBG {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),

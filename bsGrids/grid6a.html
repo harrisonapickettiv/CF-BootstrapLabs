@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>Bootstrap And The Grids: Grid Four</title>
+    <title>Bootstrap And The Grids: Grid Six</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -47,15 +47,15 @@
               <a href="grid3.html" class="nav-link">Grid 3</a>
             </li>
             <li class="nav-item">
-              <a href="grid4.html" class="nav-link active" aria-current="page"
-                >Grid 4</a
-              >
+              <a href="grid4.html" class="nav-link">Grid 4</a>
             </li>
             <li class="nav-item">
               <a href="grid5.html" class="nav-link">Grid 5</a>
             </li>
             <li class="nav-item">
-              <a href="grid6.html" class="nav-link">Grid 6</a>
+              <a href="grid6.html" class="nav-link active" aria-current="page"
+                >Grid 6</a
+              >
             </li>
             <li class="nav-item">
               <a href="grid7.html" class="nav-link">Grid 7</a>
@@ -73,19 +73,21 @@
 
     <main class="flex-shrink-0">
       <div class="container h-100 minHeight">
-        <div class="row row-cols-1 row-cols-md-3 h-100 mt-4 g-2">
-          <div class="col">
-            <div class="p-3 h-100 bg-secondary text-light">
+        <div class="row h-50 mb-2">
+          <div class="col-12 h-100">
+            <div class="bg-secondary text-light h-100">
               <p>Col One</p>
             </div>
           </div>
-          <div class="col">
-            <div class="p-3 h-100 bg-dark text-light">
-              <p>Col Two</p>
+        </div>
+        <div class="row h-50 mb-2">
+          <div class="col h-100 order-last">
+            <div class="bg-dark text-light h-100">
+              <p>Col Two - Ordered last</p>
             </div>
           </div>
-          <div class="col">
-            <div class="p-3 h-100 bg-secondary text-light">
+          <div class="col h-100">
+            <div class="bg-secondary text-light h-100">
               <p>Col Three</p>
             </div>
           </div>
