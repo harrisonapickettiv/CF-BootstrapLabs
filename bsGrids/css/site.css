@@ -6,6 +6,11 @@ body {
   min-height: 100%;
 }
 
+body > main {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
 .homeText {
   font-family: modesto-open-shadow, sans-serif;
   font-weight: 400;
