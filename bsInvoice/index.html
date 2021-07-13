@@ -14,10 +14,136 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="css/site.css" />
   </head>
 
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="border border-1 rounded p-2">
+        <div class="row justify-content-end">
+          <div class="col-2">
+            <div class="float-end mt-3">
+              <button
+                onclick="window.print();return false;"
+                class="btn btn-dark"
+              >
+                Print this page
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="float-start">
+              <img
+                class="img-fluid"
+                src="img/IdeaFoundryLogo.png"
+                alt="IdeaFoundryLogo"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="float-end">
+              <h4>Client No: 4908</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row m-2 border-top border-bottom border-2">
+          <div class="col">
+            <div class="float-start mt-3">
+              <p><span class="fw-bolder">Date:</span> 05/12/2019</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="float-end mt-3">
+              <p><span class="fw-bolder">Invoice No:</span> 19005</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="float-start m-2">
+              <p class="m-0 fw-bolder">Invoice To:</p>
+              <p class="m-0">Mark Davis</p>
+              <p class="m-0">3333 Al Davis Way</p>
+              <p class="m-0">Las Vegas, NV 89118</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="float-end m-2">
+              <p class="m-0 fw-bolder">Pay To:</p>
+              <p class="m-0">Idea Foundry, Inc.</p>
+              <p class="m-0">2705 N. Enterprise Street</p>
+              <p class="m-0">Kernsville, NC 27284</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="table-responsive">
+              <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Rate</th>
+                    <th>QTY</th>
+                    <th>Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Design</td>
+                    <td>Website Design</td>
+                    <td>$60.00</td>
+                    <td>10</td>
+                    <td>$600.00</td>
+                  </tr>
+                  <tr>
+                    <td>Development</td>
+                    <td>Website Development</td>
+                    <td>$150.00</td>
+                    <td>10</td>
+                    <td>$1,500.00</td>
+                  </tr>
+                  <tr>
+                    <td>Deployment</td>
+                    <td>Deployment and Hosting</td>
+                    <td>$450.00</td>
+                    <td>1</td>
+                    <td>$450.00</td>
+                  </tr>
+
+                  <tr class="unstriped">
+                    <td colspan="4">Sub Total:</td>
+                    <td>$2,550.00</td>
+                  </tr>
+                  <tr class="unstriped">
+                    <td colspan="4">Tax:</td>
+                    <td>$0.00</td>
+                  </tr>
+                  <tr class="unstriped">
+                    <td colspan="4">Total:</td>
+                    <td>$2,550.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div>
+              <p>
+                <span class="fw-bolder">Note:</span> This is a computer
+                generated receipt and does not require a physical signature.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
   <script
