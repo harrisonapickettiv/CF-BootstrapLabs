@@ -1,0 +1,62 @@
+html,
+body {
+  position: relative;
+  color: #212121;
+  height: 100%;
+  min-height: 100%;
+}
+
+body > main {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.nosb::-webkit-scrollbar {
+  display: none;
+}
+
+.nosb {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.homeText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(195, 255, 0);
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+main > .container-fluid {
+  padding: 60px;
+}
+
+.homeBG {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.minHeight {
+  min-height: 80vh;
+}
+
+#content {
+  position: relative;
+  height: 445px;
+}
+
+#readMoreButton {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
