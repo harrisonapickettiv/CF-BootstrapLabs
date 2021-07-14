@@ -11,6 +11,15 @@ body > main {
   margin-bottom: 60px;
 }
 
+.nosb::-webkit-scrollbar {
+  display: none;
+}
+
+.nosb {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .homeText {
   font-family: modesto-open-shadow, sans-serif;
   font-weight: 400;
