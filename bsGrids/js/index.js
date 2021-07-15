@@ -1,1 +1,1 @@
-setTimeout(gridsBtnAction, 500);
+setTimeout(gridsBtnAction, 1000);
