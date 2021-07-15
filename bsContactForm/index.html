@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Lab: Bootstrap Contact Form</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -13,12 +11,57 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="css/site.css" />
+
+    <title>CFSPBC - Lab: Bootstrap Contact Form</title>
   </head>
-  <body>
-    <main>
-      <div class="container mt-5">
+
+  <body class="d-flex flex-column">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Bootstrap Labs</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bsGrids/index.html">Grids</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/bsContactForm/index.html"
+                >Contact Form</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bsAddressBook/index.html"
+                >Address Book</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bsInvoice/index.html">Invoice</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex-shrink-0">
+      <div class="container">
         <div class="text-white text-center">
           <h1>Contact Me</h1>
         </div>
@@ -123,13 +166,20 @@
         </div>
       </div>
     </main>
+
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+      <div class="container-fluid text-center">
+        <p class="m-0 fs-6">Coder Foundry Bootstrap Labs</p>
+        <p class="m-0 fs-6">by Harrison Pickett</p>
+      </div>
+    </footer>
   </body>
+
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"
   ></script>
-
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
