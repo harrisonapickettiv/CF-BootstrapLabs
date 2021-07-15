@@ -1,3 +1,17 @@
 table.table.table-striped tr.unstriped td {
-  box-shadow: none;
+  box-shadow: none !important;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  margin-top: 70px;
+  height: 100vh;
 }
