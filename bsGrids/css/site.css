@@ -38,7 +38,7 @@ main > .container-fluid {
 .homeBG {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/GridBG.png);
+    url(../img/GridBG.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

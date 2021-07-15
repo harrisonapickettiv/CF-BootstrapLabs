@@ -1,5 +1,9 @@
-const rmbn = document.querySelector("#rmbn");
+const gridsNav = document.querySelector("#gridsNav");
+const gridsBtn = document.querySelector("#gridsNavBtn");
 
-rmbn.onclick = () => {
-  rmbn.innerText = rmbn.innerText === "Read More" ? "Read Less" : "Read More";
+const gridsBtnAction = () => {
+  gridsBtn.classList.toggle("border");
+  gridsNav.toggleAttribute("hidden");
 };
+
+gridsBtn.onclick = gridsBtnAction;

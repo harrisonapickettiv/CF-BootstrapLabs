@@ -1,0 +1,1 @@
+setTimeout(gridsBtnAction, 500);
