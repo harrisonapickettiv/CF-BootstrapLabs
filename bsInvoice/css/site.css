@@ -1,7 +1,3 @@
-table.table.table-striped tr.unstriped td {
-  box-shadow: none !important;
-}
-
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -14,4 +10,20 @@ body::-webkit-scrollbar {
 main {
   margin-top: 70px;
   height: 100vh;
+}
+
+.address {
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .address {
+    font-size: 1rem;
+  }
+}
+
+@media print {
+  .address {
+    font-size: 1rem;
+  }
 }
