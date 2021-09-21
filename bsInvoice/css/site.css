@@ -1,7 +1,3 @@
-table.table.table-striped tr.unstriped td {
-  box-shadow: none !important;
-}
-
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
