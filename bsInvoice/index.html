@@ -17,7 +17,9 @@
   </head>
 
   <body class="d-flex flex-column h-100">
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+    <nav
+      class="navbar navbar-dark navbar-expand-md fixed-top bg-dark d-print-none"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Bootstrap Labs</a>
         <button
@@ -70,7 +72,7 @@
               <div class="float-end mt-3">
                 <button
                   onclick="window.print();return false;"
-                  class="btn btn-dark"
+                  class="btn btn-dark d-print-none"
                 >
                   Print this page
                 </button>
@@ -190,7 +192,7 @@
       </div>
     </main>
 
-    <footer class="footer mt-auto py-3 bg-dark text-light">
+    <footer class="footer mt-auto py-3 bg-dark text-light d-print-none">
       <div class="container-fluid text-center">
         <p class="m-0 fs-6">Coder Foundry Bootstrap Labs</p>
         <p class="m-0 fs-6">by Harrison Pickett</p>
