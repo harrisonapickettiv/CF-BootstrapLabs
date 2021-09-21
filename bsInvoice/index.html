@@ -67,8 +67,8 @@
     <main class="flex-shrink-0">
       <div class="container vh-100">
         <div class="border border-1 rounded p-2">
-          <div class="row justify-content-end">
-            <div class="col-2">
+          <div class="row row-cols-1 row-cols-md-2 justify-content-end">
+            <div class="col">
               <div class="float-end mt-3">
                 <button
                   onclick="window.print();return false;"
@@ -79,32 +79,46 @@
               </div>
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col">
-              <div class="float-start">
-                <img
-                  class="img-fluid"
-                  src="img/IdeaFoundryLogo.png"
-                  alt="IdeaFoundryLogo"
-                />
-              </div>
+          <div class="row row-cols-1 row-cols-md-2 align-items-center">
+            <div class="col d-flex justify-content-start">
+              <img
+                class="img-fluid"
+                src="img/IdeaFoundryLogo.png"
+                alt="IdeaFoundryLogo"
+              />
             </div>
-            <div class="col">
-              <div class="float-end">
-                <h4>Client No: 4908</h4>
-              </div>
+            <div
+              class="
+                col
+                d-flex
+                justify-content-md-end justify-content-start
+                mt-3
+              "
+            >
+              <h4>Client No: 4908</h4>
             </div>
           </div>
-          <div class="row m-2 border-top border-bottom border-2">
-            <div class="col">
-              <div class="float-start mt-3">
-                <p><strong>Date:</strong> 05/12/2019</p>
-              </div>
+          <div
+            class="
+              row row-cols-1 row-cols-md-2
+              m-2
+              border-top border-bottom border-2
+            "
+          >
+            <div class="col d-flex justify-content-start my-md-3 mx-md-0 p-0">
+              <strong>Date:</strong>&nbsp;05/12/2019
             </div>
-            <div class="col">
-              <div class="float-end mt-3">
-                <p><strong>Invoice No:</strong> 19005</p>
-              </div>
+            <div
+              class="
+                col
+                d-flex
+                justify-content-md-end justify-content-start
+                my-md-3
+                mx-md-0
+                p-0
+              "
+            >
+              <strong>Invoice No:</strong>&nbsp;19005
             </div>
           </div>
           <div class="row">
@@ -183,8 +197,8 @@
             <div class="col">
               <div>
                 <p>
-                  <span class="fw-bolder">Note:</span> This is a computer
-                  generated receipt and does not require a physical signature.
+                  <strong>Note:</strong> This is a computer generated receipt
+                  and does not require a physical signature.
                 </p>
               </div>
             </div>
